@@ -4,6 +4,7 @@ env:
   browser: true
 parserOptions:
   sourceType: "module"
+  ecmaVersion: 2015
 rules:
   block-scoped-var: 2
   callback-return: 2

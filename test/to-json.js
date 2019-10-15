@@ -1,5 +1,5 @@
 var test = require('tape');
-var stringify = require('../');
+var stringify = require('../dist/index.cjs.js');
 
 test('toJSON function', function (t) {
     t.plan(1);

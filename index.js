@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = function (data, opts) {
+export default function (data, opts) {
     if (!opts) opts = {};
     if (typeof opts === 'function') opts = { cmp: opts };
     var cycles = (typeof opts.cycles === 'boolean') ? opts.cycles : false;
@@ -56,4 +54,4 @@ module.exports = function (data, opts) {
         seen.splice(seenIndex, 1);
         return '{' + out + '}';
     })(data);
-};
+}

@@ -23,7 +23,8 @@
     "test-spec": "tape test/*.js",
     "test": "npm run eslint && npm run build && nyc npm run test-spec",
     "build": "rollup --config",
-    "prepublishOnly": "npm run eslint && npm test && npm run build"
+    "prepublishOnly": "npm run eslint && npm test && npm run build",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",

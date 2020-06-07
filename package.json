@@ -21,6 +21,10 @@
     "test-spec": "tape test/*.js",
     "test": "npm run eslint && nyc npm run test-spec"
   },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/epoberezkin/fast-json-stable-stringify.git"
